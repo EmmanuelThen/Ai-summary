@@ -1,5 +1,6 @@
 import React from 'react';
-import logo from '../assets/logo.svg';
+import logo from '../assets/SummitLogoSolo.png';
+import logoFull from '../assets/logoFull.png';
 
 const Hero = () => {
   return (
@@ -12,12 +13,14 @@ const Hero = () => {
             </button>
         </nav>
 
+        <img className='' src={logoFull} alt="summit_logo" width={300} height={300} />
+
         <h1 className="head_text">
             Summarize Articles with <br className='max-md:hidden' />
-            <span className='orange_gradient'>OpenAI GPT-4</span>
+            <span className='blue_gradient'>Summit</span>
         </h1>
         <h2 className="desc">
-            No more reading through a whole article when it could have been summarized with less words. Introducing SummarizeItThen,
+            No more reading through a whole article when it could have been summarized with less words. Introducing Summit, your personal AI summarizer assistant
             simply just type in or paste the URL for your article and let AI work its magic!
         </h2>
     </header>

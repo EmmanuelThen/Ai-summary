@@ -16,12 +16,12 @@ const Hero = () => {
         <img className='' src={logoFull} alt="summit_logo" width={300} height={300} />
 
         <h1 className="head_text">
-            Summarize Articles with <br className='max-md:hidden' />
-            <span className='blue_gradient'>Summit</span>
+            Summarize Anything with <br className='max-md:hidden' />
+            <span className='blue_gradient'>Summit AI</span>
         </h1>
         <h2 className="desc">
-            No more reading through a whole article when it could have been summarized with less words. Introducing Summit, your personal AI summarizer assistant
-            simply just type in or paste the URL for your article and let AI work its magic!
+            No more reading through articles or websites, let Summit do all the work for you!. Introducing Summit, your personal AI summarizer assistant,
+            simply just paste the URL below and let AI work its magic!(50 request/mo.)
         </h2>
     </header>
   )

@@ -20,8 +20,8 @@ const Hero = () => {
             <span className='blue_gradient'>Summit AI</span>
         </h1>
         <h2 className="desc">
-            No more reading through articles or websites, let Summit do all the work for you!. Introducing Summit, your personal AI summarizer assistant,
-            simply just paste the URL below and let AI work its magic!(50 request/mo.)
+            No more reading through articles or websites, let Summit do all the work for you! Introducing Summit, your personal AI summarizer assistant,
+            simply just paste the URL below and let AI work its magic!
         </h2>
     </header>
   )
